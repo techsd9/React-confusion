@@ -7,10 +7,10 @@ class Dishdetail extends Component
 		super(props);
 	
 	this.state= {
-		selectedDish: null
+		selectedDish: null,
+		comments: null
 		};
 	}
-
 
 
 	renderDish(selectedDish){
